@@ -7,7 +7,6 @@ class NotesApplication {
         this.notes.push(note_content);
         return "created";
     }
-
-
+    
 
 }
