@@ -1,7 +1,7 @@
 class NotesApplication {
     constructor(author, notes) {
         this.author = author;
-        this.arr = arr;
+        this.notes = notes;
     }
     create(note_content) {
         this.notes.push(note_content);
@@ -14,5 +14,13 @@ class NotesApplication {
         }
     }
 
+    get(note_id) {
+        var arr = this.notes.length;
+        for (let i = 0; i < arr.length; i++) {
+            if (i === note_id) {
+                return '*-----* ' + arr[i] + ' *-------*';
+            }
+        }
+    }
 
 }
