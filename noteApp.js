@@ -1,7 +1,7 @@
 class NotesApplication {
-    constructor(author, notes) {
+    constructor(author) {
         this.author = author;
-        this.notes = notes;
+        this.notes = [];
     }
     create(note_content) {
         this.notes.push(note_content);
