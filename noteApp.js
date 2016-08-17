@@ -1,4 +1,5 @@
 class NotesApplication {
+
     constructor(author, notes) {
         this.author = author;
         this.arr = arr;
@@ -8,6 +9,9 @@ class NotesApplication {
         return "created";
     }
 
-
+    constructor(author, arr) {
+        this.author = author;
+        this.arr = arr;
+    }
 
 }
