@@ -42,4 +42,7 @@ class NotesApplication {
             return "deleted";
         }
     }
+    edit(note_id, new_content) {
+        this.notes[note_id] = new_content;
+    }
 }
