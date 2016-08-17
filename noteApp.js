@@ -1,8 +1,7 @@
 class NotesApplication {
-
-    constructor(author, notes) {
+    constructor(author) {
         this.author = author;
-        this.notes = notes;
+        this.notes = [];
     }
     create(note_content) {
         this.notes.push(note_content);
@@ -31,7 +30,6 @@ class NotesApplication {
 
                 console.log("note ID: " + i + "\n" + this.notes[i] + "\n\n" + "By Author " + this.author);
             }
->>>>>>> ft_app_functionality
 
         }
 
