@@ -15,7 +15,7 @@ class NotesApplication {
     }
 
     get(note_id) {
-        var arr = this.notes.length;
+        var arr = this.notes;
         for (let i = 0; i < arr.length; i++) {
             if (i === note_id) {
                 return '*-----* ' + arr[i] + ' *-------*';
