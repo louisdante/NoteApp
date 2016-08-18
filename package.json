@@ -1,0 +1,23 @@
+{
+  "name": "note-app",
+  "version": "1.0.0",
+  "description": "this is a note taking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisdante/NoteApp.git"
+  },
+  "author": "louisdante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/louisdante/NoteApp/issues"
+  },
+  "homepage": "https://github.com/louisdante/NoteApp#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
