@@ -62,7 +62,7 @@ NotesApplication.prototype.delete = function(note_id) {
     if (note_id > this.notes.length || note_id < 0) {
         return "the number entered doesnt exit";
     } else {
-        this.notes.splice(note_id);
+        this.notes.splice(note_id, 1);
         return "deleted";
     }
 };
