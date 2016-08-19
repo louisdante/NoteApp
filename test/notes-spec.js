@@ -68,9 +68,7 @@ describe("delete", function() {
     it("the deleted note at index should not exists", function() {
         app.create("First time");
         app.create("Second time");
-        console.log(app.notes);
-        //expect(app.delete(0)).to.equal('deleted');
-        console.log(app.notes);
+        expect(app.delete(0)).to.equal('deleted');
     });
     it(" has to delete a note with an index that exists", function() {
         expect(app.delete()).not.to.be.null;
